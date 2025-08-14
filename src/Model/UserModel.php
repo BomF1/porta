@@ -65,7 +65,7 @@ class UserModel
     {
         return [
             'uuid' => $this->uuid,
-            'fullName' => $this->fullName,
+            'full_name' => $this->fullName,
             'email' => $this->email,
             'password' => $this->password,
             'status' => $this->status->value,
