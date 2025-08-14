@@ -1,3 +1,28 @@
 body {
-    background-color: skyblue;
+    background-color: #0b0c10;
+    color: #eaecef;
+}
+
+.app-sidebar {
+    background: #111217;
+    border-right: 1px solid rgba(255, 255, 255, .06);
+}
+
+.app-sidebar .nav-link {
+    color: #c9d1d9;
+    border-radius: .5rem;
+}
+
+.app-sidebar .nav-link.active, .app-sidebar .nav-link:hover {
+    background: #1b1f24;
+    color: #fff;
+}
+
+.app-navbar {
+    background: #0f1115;
+    border-bottom: 1px solid rgba(255, 255, 255, .06);
+}
+
+.app-content {
+    min-height: 100vh;
 }
